@@ -1,6 +1,0 @@
-#intellij idea files
-.idea
-target
-*.iml
-META-INF
-out
