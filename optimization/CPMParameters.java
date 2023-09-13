@@ -28,7 +28,8 @@ public class CPMParameters extends ObjectiveParameters {
 
     public CPMParameters(){
         this.alpha = 0.5; // same weight for negative and positive edges
-        this.randomSeed = -1;   // seed will be selected randomly
+        //this.randomSeed = -1;   // seed will be selected randomly
+        this.randomSeed = 1;   // seed will be always the same
     }
 
     public CPMParameters setResolution(double resolution) {
