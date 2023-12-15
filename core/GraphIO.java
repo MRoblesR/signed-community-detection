@@ -30,6 +30,7 @@ public class GraphIO {
     public static ListMatrix readListMatrix(String address, boolean symmetric) throws Exception{
         FileInputStream fis = new FileInputStream(address);
         Scanner scanner = new Scanner(fis);
+        scanner.nextLine();
         ArrayList<Integer> inputRows = new ArrayList<>();
         ArrayList<Integer> inputColumns = new ArrayList<>();
         ArrayList<Float> inputValues = new ArrayList<>();
